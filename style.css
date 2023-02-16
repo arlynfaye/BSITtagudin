@@ -1,0 +1,378 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*********************/
+/*     Project 1     */
+/*********************/
+.basic-2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 18px;
+    padding-left: 18px;
+    margin-top: 20px;
+}
+
+.basic-2 .text-container {
+    margin-bottom: 4rem;
+}
+
+.basic-2 h2 {
+    margin-bottom: 1.875rem;
+}
+
+.basic-2 p {
+    margin-bottom: 1.25rem;
+}
+
+.Column1 {
+    background: #fff;
+   
+   padding-top: 50px;
+   position: relative;
+
+}
+
+.sca {
+    margin-top: 45px;
+    background: #fff;
+    padding: 0px 30px 60px 30px;
+    box-shadow: 3px 0 62px rgba(13, 3, 3, 0.20);
+    border-radius: 10px;
+     transition: ease-in all 0.5s;
+     margin-bottom: 30px;
+}
+
+.sca i {
+    margin: 0;
+}
+
+.sca i img {
+   border-radius: 50%;  
+       box-shadow: 3px 0 62px rgba(13, 3, 3, 0.18);  margin-top: -50px;  
+}
+
+.sca h3 {
+    color: #151515;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    padding-top: 42px;
+    text-transform: uppercase;
+}
+
+.sca p {
+    padding: 20px 0 40px 0;
+    color: #0f100d;
+    line-height: 28px;
+    font-weight: normal;
+}
+
+.Column1::before {
+    position: absolute;
+    content: "";
+    right: 4%;
+    top: 34%;
+    width: 120px;
+    height: 121px;
+}
+.card{
+    max-width: 100%;
+    height: auto;
+}
+
+.scroll{
+    height: 500px;
+    overflow-y: scroll;
+}
+.scroll::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px transparent;
+	background-color: transparent;
+	border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: transparent;
+}
+
+.scroll::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-image: linear-gradient(#6A906C , #1C4508);
+}
+
+.indent{
+    text-indent: 25px;
+    text-align: justify;
+}
+.row{
+    height: 50%;
+}
+.vm .container{
+    padding: auto;
+}
+.vm{
+    padding: 5% 10% 0%;
+    height: 100%;
+}
+
+/** mission,vision and history **/
+
+.Column1 {
+    background: #fff;
+   
+   padding-top: 50px;
+   position: relative;
+
+
+}
+
+.sca {
+    margin-top: 45px;
+    background: #fff;
+    padding: 0px 30px 60px 30px;
+    box-shadow: 3px 0 62px rgba(13, 3, 3, 0.20);
+    border-radius: 10px;
+     transition: ease-in all 0.5s;
+     margin-bottom: 30px;
+}
+
+.sca i {
+    margin: 0;
+}
+
+.sca i img {
+   border-radius: 50%;  
+       box-shadow: 3px 0 62px rgba(13, 3, 3, 0.18);  margin-top: -50px;  
+}
+
+.sca h3 {
+    color: #151515;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    padding-top: 42px;
+    text-transform: uppercase;
+}
+
+.sca p {
+    padding: 20px 0 40px 0;
+    color: #0f100d;
+    line-height: 28px;
+    font-weight: normal;
+}
+
+.Column1::before {
+    position: absolute;
+    content: "";
+    right: 4%;
+    top: 34%;
+    width: 120px;
+    height: 121px;
+}
+
+
+/** end mission,vision and history **/
+
+
+/*********************************
+10. Events
+*********************************/
+
+.events
+{
+    width: 100%;
+    padding-top: 93px;
+    padding-bottom: 70px;
+    background: #FFFFFF;
+}
+.events_row
+{
+    margin-top: 47px;
+}
+.event_left
+{
+    padding-right: 20px;
+}
+.event_mid
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.event_right
+{
+    padding-left: 20px;
+}
+.event_image
+{
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.event_image img
+{
+    max-width: 100%;
+}
+.event_body
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.event_date
+{
+    box-shadow: 0px 1px 10px rgba(29, 34, 47, 0.1);
+}
+.event_date > div
+{
+    width: 60px;
+    height: 60px;
+}
+.event_day
+{
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    color: black;
+    font-weight: 700;
+    line-height: 0.75;
+}
+.event_month
+{
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+    line-height: 0.75;
+    margin-top: 9px;
+}
+.event:hover .event_date > div
+{
+    background: #791105;
+}
+.event:hover .event_day,
+.event:hover .event_month
+{
+    color: white;
+}
+.event_content
+{
+    padding-left: 20px;
+}
+.event_title a
+{
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #791105;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+.event_title a:hover
+{
+    color: #791105;
+}
+.event_info_container
+{
+    margin-top: 11px;
+}
+.event_info
+{
+    display: inline-block;
+    color: #791105;
+    font-size: 14px;
+}
+.event_info:not(:last-child)
+{
+    margin-right: 17px;
+}
+.event_info span
+{
+    margin-left: 4px;
+}
+.event_text
+{
+    margin-top: 12px;
+}
+
+
+/*---------------------
+    Event Section
+-----------------------*/
+
+.event-item {
+    margin-bottom: 50px;
+}
+
+.event-item .event-thumb {
+    margin-bottom: 45px;
+    position: relative;
+}
+
+.event-item .event-thumb img {
+    min-width: 100%;
+}
+
+.event-item .event-thumb .event-date {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    bottom: -19px;
+}
+
+.event-item .event-thumb .event-date span {
+    min-width: 170px;
+    bottom: 0;
+    background: #791105;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50px;
+    letter-spacing: 2px;
+}
+
+.event-item .event-info {
+    text-align: center;
+}
+
+.event-item .event-info h4 {
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.event-item .event-info p {
+    margin-bottom: 30px;
+}
+
+.event-item .event-info p i {
+    color: #f6783a;
+    padding-left: 13px;
+    padding-right: 4px;
+}
+
+.event-item .event-info .event-readmore {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: ##791105
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.event-item .event-info .event-readmore i {
+    color: #791105;
+}
